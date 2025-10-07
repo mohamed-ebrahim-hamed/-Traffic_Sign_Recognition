@@ -1,0 +1,16 @@
+# .gitignore for Traffic Sign Recognition Project
+
+# Ignore large image data folders (Crucial for deep learning projects)
+train/
+test/
+Meta/
+*.csv
+
+# Ignore TensorFlow logs and temporary files
+__pycache__/
+.ipynb_checkpoints/
+
+# Ignore the heavy model weights file if its size exceeds GitHub's limit (100MB)
+# Since you're uploading weights, keep the line below commented or deleted.
+# If the push fails due to size, uncomment/add this line:
+# model_weights.h5
