@@ -1,7 +1,11 @@
+
+
 # 🚦 Industry Level Project: Traffic Sign Recognition (CNN)
 
 ## Overview
 This project represents the completion of **Task 8 (Industry Level)** in the Elevvo Machine Learning Internship. The goal was to build a robust model capable of classifying the 43 different types of traffic signs from the German Traffic Sign Recognition Benchmark (GTSRB) dataset. This project demonstrates proficiency in **Deep Learning and Computer Vision**.
+
+---
 
 ## Key Outcomes and Techniques
 The solution employs a Convolutional Neural Network (CNN) and advanced image processing techniques to achieve high accuracy:
@@ -11,19 +15,29 @@ The solution employs a Convolutional Neural Network (CNN) and advanced image pro
 3.  **Data Augmentation (Bonus):** Applied an `ImageDataGenerator` with transformations (rotation, zoom, shift) to artificially expand the training dataset, significantly boosting the model's generalization capabilities.
 4.  **Model Evaluation:** Performance was measured on a separate test set, confirming the model's robustness.
 
+---
+
 ## Performance Results
 
 | Metric | Result |
 | :--- | :--- |
-| **Final Test Accuracy** | **[أدخل القيمة النهائية هنا]%** |
+| **Final Test Accuracy** | **96.03%** |
 | **Model Type** | Convolutional Neural Network (CNN) |
 | **Classification Type** | Multi-class Classification (43 classes) |
 
+---
+
 ## Files in Repository
-* `Traffic_Sign_Recognition_CNN.ipynb`: The main code file containing the full workflow (Preprocessing, Model Building, Training, and Evaluation).
-* `model_weights.h5`: The saved weights of the final trained CNN model, allowing quick loading for inference without retraining.
-* `README.md`: This documentation file.
-* `requirements.txt`: List of all required Python packages.
+
+| File Name | Description |
+| :--- | :--- |
+| **`Traffic_Sign_Recognition_CNN.ipynb`** | The main code file containing the full workflow (Preprocessing, Model Building, Training, and Evaluation). |
+| **`model_weights.h5`** | The saved weights of the final trained CNN model, allowing quick loading for inference without retraining. |
+| **`README.md`** | This documentation file, summarizing project details and performance. |
+| **`requirements.txt`** | List of all required Python packages (including TensorFlow, Keras, and OpenCV). |
+| **`.gitignore`** | Configuration file to ensure large data folders (train/, test/) are excluded from the repository. |
+
+---
 
 ## How to Run
 1.  **Dependencies:** Install required libraries (see `requirements.txt`).
@@ -31,3 +45,5 @@ The solution employs a Convolutional Neural Network (CNN) and advanced image pro
 3.  **Execution:** Run the `Traffic_Sign_Recognition_CNN.ipynb` notebook sequentially.
 
 ---
+
+**الخطوة التالية:** قم بحفظ هذا المحتوى في ملف **`README.md`** وارفعه مع بقية ملفات المشروع (Task 8) إلى GitHub. بمجرد الانتهاء من الرفع، سننتقل إلى مشروعك الثالث والأخير **(Task 7: Sales Forecasting)**.
