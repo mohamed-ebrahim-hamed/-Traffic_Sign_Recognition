@@ -46,4 +46,3 @@ The solution employs a Convolutional Neural Network (CNN) and advanced image pro
 
 ---
 
-**الخطوة التالية:** قم بحفظ هذا المحتوى في ملف **`README.md`** وارفعه مع بقية ملفات المشروع (Task 8) إلى GitHub. بمجرد الانتهاء من الرفع، سننتقل إلى مشروعك الثالث والأخير **(Task 7: Sales Forecasting)**.
